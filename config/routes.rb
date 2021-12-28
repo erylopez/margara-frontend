@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   get 'home', to: 'home#index'
 
   get 'product', to: 'home#product'
+  get 'product/v2', to: 'home#productv2'
 end

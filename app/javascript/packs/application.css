@@ -13,4 +13,17 @@
   .shadow-t{
     box-shadow: 0 -5px 4px -5px #6b7280;
   }
+  .bg-opacity:before{
+    content: "";
+    @apply bg-gray-600;
+    @apply absolute;
+    @apply h-full;
+    @apply w-full;
+    @apply opacity-40;
+    @apply rounded-t-full;
+    @apply rounded-b-full
+  }
+  .h-content{
+    height: max-content;
+  }
 }
